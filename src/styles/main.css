@@ -1,0 +1,63 @@
+:root {
+  /* Colours (approximated from the frame; refine with Dev Mode) */
+  --color-bg: #eef1f6;
+  --color-surface: #ffffff;
+  --color-primary: #2f6bff;
+  --color-primary-hover: #1f57e0;
+  --color-primary-soft: #dbeafe;
+  --color-text: #1f2937;
+  --color-text-muted: #8a93a5;
+  --color-border: #e5e9f2;
+  --color-drop-bg: #f7faff;
+  --color-drop-border: #b9cdf5;
+  --color-drop-border-active: #2f6bff;
+  --color-dot-idle: #cfd8e6;
+
+  /* Spacing scale (multiples of 8) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+
+  /* Radii and shadows */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-card: 0 12px 32px rgba(31, 41, 55, 0.08);
+  --shadow-button: 0 6px 16px rgba(47, 107, 255, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+    'Inter', 'Segoe UI', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-7);
+  min-height: 100vh;
+  padding: var(--space-6);
+}
+
+/* Small screens: stack the columns */
+@media (max-width: 900px) {
+  .page {
+    flex-direction: column;
+    gap: var(--space-5);
+    padding: var(--space-4);
+  }
+}
