@@ -6,8 +6,7 @@ left, and an upload card on the right (dashed drop zone, two buttons, step dots)
 
 ## Live preview
 
-> Add the deployed URL here after publishing, e.g.
-> `https://github.com/wzjaiykz/d5data-frontend-test.git`
+https://wzjaiykz.github.io/d5data-frontend-test/
 
 ## Run locally
 
