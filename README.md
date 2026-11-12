@@ -1,5 +1,7 @@
 # Resume Upload — Front-end Test
 
+[![CI](https://github.com/wzjaiykz/d5data-frontend-test/actions/workflows/pages.yml/badge.svg)](https://github.com/wzjaiykz/d5data-frontend-test/actions/workflows/pages.yml)
+
 A pixel-conscious implementation of the "Upload Your Resume" screen from the
 provided Figma file: a two-column layout with copy and an illustration on the
 left, and an upload card on the right (dashed drop zone, two buttons, step dots).
