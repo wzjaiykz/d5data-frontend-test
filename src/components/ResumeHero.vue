@@ -13,9 +13,11 @@
       also edit it later.
     </p>
 
-    <div class="hero__art" aria-hidden="true">
-      <!-- Placeholder illustration: replace with the exported asset -->
-      <img src="../assets/illustration.svg" alt="" />
+    <div class="hero__art">
+      <img
+        src="../assets/illustration.png"
+        alt="Illustration of a cat sitting in front of a folder and a phone"
+      />
     </div>
   </section>
 </template>
